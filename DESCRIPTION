@@ -1,0 +1,13 @@
+Package: derbybetr
+Type: Package
+Title: Win, Place, and Show Bets For a Kentucky Derby Party
+Version: 0.1.0
+Date: 2015-10-08
+Authors@R: person("Ryan", "Elmore", email = "rtelmore@gmail.com",
+  role = c("aut", "cre"))
+Description: This package provides some functions taking in bets and paying out
+  win/place/show bets for a horse race.
+License: GPL (>= 3)
+Depends: dplyr,
+         googlesheets
+LazyData: TRUE
