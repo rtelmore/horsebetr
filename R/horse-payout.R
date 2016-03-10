@@ -1,4 +1,4 @@
-final_payout <- function(bet_df, results){
+horse_payout <- function(bet_df, results){
   kBets <- length(bet_df$horse)
   mult <- final_multiplier(bet_df, kFactor = sum(results %in% bet_df$horse))
   win_payouts <- rep(0, kBets)

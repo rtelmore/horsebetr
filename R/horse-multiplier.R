@@ -1,4 +1,4 @@
-final_multiplier <- function(bet_df, kFactor){
+horse_multiplier <- function(bet_df, kFactor){
   horses <- unique(bet_df$horse)
   bet <- 1:length(horses)
   ## amount bet per horse
