@@ -11,6 +11,6 @@ horse_multiplier <- function(bet_df, n_factor){
   total_bet <- sum(bet_df$amount)
   bet_by_horse <- group_by(bet_df, horse) %>%
     summarize(total = sum(amount)) %>%
-    mutate(muliplier = (total_bet/n_factor - total)/total)
+    mutate(multiplier = (total_bet/n_factor - total)/total)
   return(bet_by_horse)
 }
