@@ -15,6 +15,7 @@ horse_payout <- function(bet_df, results){
     mutate(winner = bet_df$horse %in% results) %>%
     filter(winner == TRUE) %>%
     mutate(payout = amount*(multiplier + 1)) %>%
-    group_by(bettor, horse)
+    group_by(bettor, horse) %>%
+    select(bettor, horse, type, amount, payout)
   return(final_payouts)
 }
