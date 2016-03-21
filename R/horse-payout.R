@@ -7,7 +7,7 @@
 #' @return A tbl_df object with name, horse, amount, and type of bet
 #' @examples
 #' horse_payout(bet_df = total_bets,
-#'              results = c("Barbaro", "Secretariat")
+#'              results = c("Barbaro", "Secretariat", "Man-o-War")
 horse_payout <- function(bet_df, results){
   n_bets <- dim(bet_df)[1]
   mult <- horse_multiplier(bet_df, n_factor = sum(results %in% bet_df$horse))
