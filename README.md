@@ -1,7 +1,7 @@
 ## horsebetr - The R program for making your KY Derby party awesome
 
 Here's how I use the program.
-1. Place your bets into a google sheet using a google form.
+1. Have bettors place their bets into a google sheet, *e.g.* using a google form.
 2. You should have five fields in the sheet:
     1. timestamp
     2. person betting
