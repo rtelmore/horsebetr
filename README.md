@@ -1,4 +1,4 @@
-## horsebetr - The R program for making your KY Derby party awesome
+## horsebetr - The R package for making your KY Derby party more awesome
 
 Here's how I use the program.
 1. Have bettors place their bets into a google sheet, *e.g.* using a google form.
